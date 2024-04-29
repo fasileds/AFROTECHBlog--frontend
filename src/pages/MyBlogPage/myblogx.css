@@ -1,0 +1,28 @@
+.myblogx {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.myblogxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: pointer;
+}
+.createBlogPage button {
+  height: 50px;
+  margin: 30px;
+  padding: 10px;
+  width: 500px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  color: aliceblue;
+  background-color: #190e4f;
+}
+.createBlogPage button:hover {
+  background-color: #3aafb9;
+  color: #19191a;
+  font-size: 20px;
+}

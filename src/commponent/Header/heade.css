@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  height: auto;
+  color: white;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerTitle {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  font-size: 35px;
+}
+.hederLastUpdate {
+  color: rgb(98, 101, 102);
+  font-size: 20px;
+}

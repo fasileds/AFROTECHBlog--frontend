@@ -1,0 +1,73 @@
+.myblog {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  margin: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 3px 3px 9px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 9px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 9px 6px rgba(0, 0, 0, 0.75);
+}
+.mybologImage {
+  width: 100%;
+  height: 300px;
+}
+.myblImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.myBlogTotle {
+  font-size: 30px;
+  font-weight: 700;
+}
+.mydescription {
+  height: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 10px;
+}
+.mydescription span desc {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1d1b1b;
+  overflow: hidden;
+}
+.myothers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #5c5959;
+  margin-top: 15px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.myothers button {
+  height: 40px;
+  border-radius: 10px;
+  color: aliceblue;
+  width: 150px;
+  border: none;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  background-color: #190e4f;
+}
+.myothers button:hover {
+  background-color: #3aafb9;
+}
+.myedButton button {
+  height: 40px;
+  border-radius: 10px;
+  color: aliceblue;
+  width: 100px;
+  border: none;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px;
+  cursor: pointer;
+  background-color: #190e4f;
+}
